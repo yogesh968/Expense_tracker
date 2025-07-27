@@ -55,7 +55,7 @@ function SignUp() {
       <input
       id='pass'
         type="password"
-        placeholder="Password (min 6 chars)"
+        placeholder="Password (min 7 chars)"
         value={password}
         onChange={(e) => setPassword(e.target.value)}
         required
