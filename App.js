@@ -20,6 +20,7 @@ const Tab = createBottomTabNavigator();
 const Stack = createNativeStackNavigator();
 
 function Tabs() {
+
   const { theme } = useTheme();
   return (
     <Tab.Navigator
@@ -37,7 +38,7 @@ function Tabs() {
         },
       })}
     >
-      <Tab.Screen name="Home" component={HomeScreen} />
+      <Tab.Screen name="HOME" component={HomeScreen} />
       <Tab.Screen name="Expenses" component={ExpenseListScreen} />
       <Tab.Screen name="Analytics" component={AnalyticsScreen} />
       <Tab.Screen name="Settings" component={SettingsScreen} />
