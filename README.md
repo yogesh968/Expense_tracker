@@ -9,6 +9,7 @@ A modern, minimal expense tracker built with Expo and React Native. It uses Nati
 - **Analytics**: Pie and bar charts for insights.
 - **Settings**: Dark mode toggle, reset data, export CSV.
 - **Floating + Button**: Quick add from Home.
+- **floating :quick 
 
 ## Tech Stack
 - **Expo SDK 51**
