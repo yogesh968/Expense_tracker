@@ -6,7 +6,7 @@ import { useExpenses } from '../context/ExpensesContext';
 import { isThisMonth } from '../utils/dateRange';
 import tw from 'twrnc';
 
-const categories = ['Food', 'Travel', 'Shopping', 'Bills', 'Others'];
+const categories = ['Food', 'Travel', 'Shopping', 'Bills', 'Other'];
 
 export default function HomeScreen() {
   const nav = useNavigation();
